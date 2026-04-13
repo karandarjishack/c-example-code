@@ -1,15 +1,48 @@
-# C Programming Language Example Code
+# C Example Code
 
-This repository contains example C Programming Language code for free lessons posted on the Portfolio Courses YouTube Channel: https://www.youtube.com/c/PortfolioCourses
+This repository is a forked collection of **C programming examples** covering language fundamentals, file handling, memory management, algorithms, and small focused exercises.
 
-The code examples are from these playlists specifically:
+## Repository Purpose
 
-C Programming Tutorials:
-https://www.youtube.com/playlist?list=PLA1FTfKBAEX4hblYoH6mnq0zsie2w6Wif
+The repo is useful as:
 
-C Programming Examples:
-https://www.youtube.com/playlist?list=PLA1FTfKBAEX6dPcQitk_7uL3OwDdjMn90
+- a personal learning reference
+- a compilation practice set
+- a quick index of short C examples
+- a forked mirror of upstream educational content
 
-Comments have been added to the code to try to explain things, but the code should make much more sense after watching the relevant lesson.  A link to the relevant YouTube video is posted with each file/folder.
+## Contents
 
-If you're interested in learning C Programming, check our FREE C Programming for Beginners Full Course In 6 Hours: https://www.youtube.com/watch?v=ssJY5MDLjlo
+The repository contains a large number of standalone `.c` files and small subfolders for topics such as:
+
+- arrays and strings
+- conditionals and loops
+- file I/O
+- pointers and dynamic memory
+- sorting and searching
+- structs and enums
+- threading and systems examples
+
+## Upstream Attribution
+
+This repository is a fork of the original educational project from **Portfolio Courses**:
+
+- YouTube channel: https://www.youtube.com/c/PortfolioCourses
+- Upstream repository: https://github.com/portfoliocourses/c-example-code
+
+## Running Examples
+
+Compile an individual file with `gcc`:
+
+```bash
+gcc example.c -o example
+./example
+```
+
+Replace `example.c` with the specific file you want to test.
+
+## Notes
+
+- Examples are intentionally small and self-contained
+- Some folders include their own small README files
+- This fork preserves the value of the upstream learning material while keeping it accessible from this account
